@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+/*  header */
+
+.header {
+  width: 50%;
+}
+
+.navigation li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* section - home */
+.home {
+  width: 80%;
+}
+
+/* section - list */
+
+.list {
+  width: 50%;
+
+  list-style-position: inside;
+}
+
+/* section - products */
+
+.products {
+  width: 80%;
+
+  list-style-position: inside;
+}
+
+.product-image {
+  width: 350px;
+}
+
+/*** utilities ***/
+
+/* text-color */
+.u-text-red {
+  color: #fc4855;
+}
+
+.u-text-purple {
+  color: #9048aa;
+}
+
+.u-text-brown {
+  color: #d89000;
+}
+
+/*  align */
+
+.u-text-center {
+  text-align: center;
+}
+
+/* text-size */
+
+.u-text-medium {
+  font-size: 20px;
+}
+
+/* center */
+
+.u-item-center {
+  margin: auto;
+  text-align: center;
+}
