@@ -9,15 +9,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* header */
 .header {
     text-align: center;
 }
 
+/* search-section */
 .search-bar {
     text-align: center;
     background-color: #eee;
     width:90%;
     margin: auto;
+    padding: 2px;
 }
 
 .search-input {
@@ -33,4 +36,59 @@ input[type=submit] {
     display: inline-block;
     padding: 1px 6px;
     
+}
+
+/* links-section */
+
+.links-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.special-search-section {
+    width: 35%;
+    text-align: center;
+    background-color: #7EE5DA;
+    padding: 10px 20px;
+    float: left;
+    margin-right: 2px;
+}
+
+.special-search-section li{
+    list-style-type: none;
+}
+
+.help-section {
+    width: 21.2%;
+    text-align: center;
+    background-color: #70CCC2;
+    float: left;
+    padding: 5px 30px;
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+.help-section li {
+    list-style-type: none;
+}
+
+.subscribe-section {
+    width: 43.5%;
+    float: left;
+    text-align: center;
+    background-color: #62B3AA;
+    padding: 1px;
+}
+
+.subscribe-section p {
+    font-size: 13px;
+}
+
+.subscribe-email {
+    display: inline-block;
+}
+
+.archive {
+    font-size: 13px;
 }
