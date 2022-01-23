@@ -9,6 +9,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.clearfix {
+    clear: both;
+}
+
 /* header */
 .header {
     text-align: center;
@@ -46,6 +50,8 @@ input[type=submit] {
     margin-top: 2px;
 }
 
+
+/*  special-search section */
 .special-search-section {
     width: 35%;
     text-align: center;
@@ -58,6 +64,8 @@ input[type=submit] {
 .special-search-section li{
     list-style-type: none;
 }
+
+/* help section */
 
 .help-section {
     width: 21.2%;
@@ -72,6 +80,8 @@ input[type=submit] {
 .help-section li {
     list-style-type: none;
 }
+
+/*  subscribe section */
 
 .subscribe-section {
     width: 43.5%;
@@ -91,4 +101,18 @@ input[type=submit] {
 
 .archive {
     font-size: 13px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    width:90%;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.footer p {
+    font-size: 13px;
+    
 }
