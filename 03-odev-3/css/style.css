@@ -155,3 +155,41 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .footerli a:hover {
   text-decoration: underline;
 }
+
+
+/* new css */
+
+/* header */
+
+.profilepic {
+  border-radius: 50%;
+}
+
+.top-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.top-header a {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: #000;
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  
+}
+
+.header-left {
+  margin: 10px;
+}
+
+.header-right ul{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+}
