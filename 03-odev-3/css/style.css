@@ -195,9 +195,15 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 /* search */
+
 .search-area{
   border: 1px solid #DFE1E5;
   border-radius: 24px;
+}
+
+.search-area:hover {
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 
 .voice-img {
@@ -241,4 +247,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+/* footer */
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer li{
+  list-style-type: none;
 }
