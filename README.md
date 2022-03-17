@@ -1,4 +1,5 @@
 # CSS ödev
+www.patika.dev
 
 ## odev-1
  html-css kullanılarak yapılan music-store projesi
